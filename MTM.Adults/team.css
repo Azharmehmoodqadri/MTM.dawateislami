@@ -20,9 +20,11 @@ section {
     background-color: #d9e0e4;
     width: 100%;
 }
-p{
+
+p {
     margin: 25px;
 }
+
 .team .box-container .box img {
     width: 16rem;
     height: 16rem;
@@ -308,10 +310,27 @@ p{
         padding: 0px;
     }
 
+    .heading-1 {
+        font-size: 32px;
+        padding: 0;
+        margin: 0;
+
+    }
+    .logo{
+        width: 80px;
+        padding: 3px;
+        
+        margin: 0 auto;
+    }
+    nav ul li a {
+        color: #000000;
+    }
+    
     .heading {
         font-size: 32px;
         padding: 0;
         margin: 0;
     }
 
+    
 }
