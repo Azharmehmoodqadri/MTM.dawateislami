@@ -1,0 +1,30 @@
+body{
+    background-color: dimgray;
+}
+h1{
+    font-size: 2.1rem;
+    line-height: 1.4;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 50px;
+}
+
+.maindiv{
+    width: 70%;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUwk_NPMkfEDP6ProCPb6PT7YkWLOLBYjh6g&usqp=CAU) ;
+    background-size: 100% 100%;
+    transform: translate(-50% , -50%);
+    box-shadow: 2px 2px 10px 5px white;
+    animation: slider 50s infinite linear ;
+}
+@keyframes slider{
+    0%{ background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUwk_NPMkfEDP6ProCPb6PT7YkWLOLBYjh6g&usqp=CAU);}
+    35%{ background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0_qe0CisZH_sX2CIWBSLe3I5TRLWuKJzqMQ&usqp=CAU);}
+    75%{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_L7aYN63MjJDLPk9loETsy13mt7XNldvgSA&usqp=CAU); }
+
+}
